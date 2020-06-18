@@ -1,0 +1,96 @@
+/* Font Families */
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* Top Section */
+
+.topBackground {
+  max-width: 630px;
+  position: absolute;
+  left: 0;
+  top: 11rem;
+  opacity: 0.85;
+}
+
+.topSection {
+  background-color: #edefec;
+  padding: 2rem 7% 16.825rem;
+}
+
+.logoLarge {
+  width: 14rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+/* Nav bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  padding: 0 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #34552b;
+}
+
+.menuBorder {
+  border-right: solid;
+  border-width: 0.125rem;
+}
+
+.navItems {
+  position: relative;
+  bottom: 5.75rem;
+}
+
+.nav-link {
+  color: #34552b;
+}
+
+.navbar-toggler-icon {
+  color: #34552b;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #34552b;
+}
+
+/* About Me Section */
+
+.midSection {
+  background-color: #596F62;
+  padding: 4rem 8.25% 13.825rem;
+}
+
+.logoSmall {
+  width: 8rem;
+}
+
+.profilePic {
+  max-width: 20rem;
+}
+
+.aboutMe {
+  padding: 0 0 0 6%;
+}
+
+.aboutText {
+  /* padding: 0 16% 0 0.5rem; */
+}
+
+/* Contact Section */
+
+.bottomSection {
+  background-color: #F1F1F1;
+  padding: 4rem 8.25% 13.825rem;
+}
