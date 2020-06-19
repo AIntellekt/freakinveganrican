@@ -1,0 +1,141 @@
+/* Font Families */
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* Top Section */
+
+.topSection {
+  background-color: #edefec;
+  padding: 2rem 3rem 0;
+}
+
+.logoLarge {
+  max-width: 13rem;
+}
+
+/* Nav bar */
+.navbar {
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  padding: 0 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #34552b;
+}
+
+.menuBorder {
+  border-right: solid;
+  border-width: 0.125rem;
+  color: #596f62;
+}
+
+.navItems {
+  position: relative;
+  bottom: 5.75rem;
+}
+
+.nav-link {
+  color: #34552b;
+}
+
+.navbar-toggler-icon {
+  color: #34552b;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #34552b;
+}
+
+.topBackground {
+  max-width: 740px;
+  position: relative;
+  right: 3rem;
+  z-index: 1;
+}
+
+
+/* About Me Section */
+
+.midSection {
+  background-color: #596F62;
+  padding: 4rem 1rem 4rem 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.logoSmall {
+  width: 8rem;
+  z-index: 10;
+}
+
+.profilePic {
+  max-width: 19rem;
+  margin-left: 4%;
+  z-index: 2;
+}
+
+.media-body {
+  background-color: #34552C;
+  height: 22rem;
+  padding: 2.25rem 1rem 0.5rem 10rem;
+  margin-top: 2.75rem;
+  margin-left: -10rem;
+  color: #fff;
+  z-index: 0;
+  -webkit-clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 88%);
+}
+
+.aboutDiv {
+  text-align: left;
+}
+
+.carousel {
+  margin-bottom: 2rem;
+  z-index: 2;
+}
+
+.carousel-control-prev {
+  left: -4.5rem;
+  opacity: 1;
+  transition: none;
+}
+
+.carousel-control-prev-icon {
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000007a;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000001c;
+}
+
+.carousel-control-next {
+  right: -4.5rem;
+  opacity: 1;
+  transition: none;
+}
+
+.carousel-control-next-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: -0.2rem 0.2rem 0.2rem 0.1rem #0000007a;
+}
+
+
+/* Contact Section */
+
+.bottomSection {
+  background-color: #F1F1F1;
+  padding: 4rem 8.25% 13.825rem;
+  position: relative;
+}
