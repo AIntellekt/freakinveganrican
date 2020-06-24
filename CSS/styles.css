@@ -3,18 +3,18 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-/* Top Section */
-
-.topSection {
-  background-color: #edefec;
-  padding: 2rem 3rem 0;
-}
-
-.logoLarge {
-  max-width: 13rem;
-}
-
 /* Nav bar */
+
+body {
+  background-color: #edefec;
+}
+
+.navbarSection {
+  background-color: #edefec;
+  position: fixed;
+  z-index: 1000;
+}
+
 .navbar {
   z-index: 1;
 }
@@ -38,11 +38,6 @@ font-family: 'Poppins', sans-serif; */
   color: #596f62;
 }
 
-.navItems {
-  position: relative;
-  bottom: 5.75rem;
-}
-
 .nav-link {
   color: #34552b;
 }
@@ -55,21 +50,40 @@ font-family: 'Poppins', sans-serif; */
   border-color: #34552b;
 }
 
-.topBackground {
-  max-width: 740px;
+/* Top Section */
+
+.topSection {
+  padding: 6.5rem 0 0;
   position: relative;
-  right: 3rem;
-  z-index: 1;
 }
 
+.heading-container {
+  display: inline-flex;
+}
+
+.topBackground {
+  display: inline-flex;
+}
+
+.veganQuote {
+  padding: 2rem;
+  display: inline-flex;
+  z-index: 3;
+  bottom: 2rem;
+}
+
+.vinesImg {
+  min-width: 350px;
+  display: inline-flex;
+}
 
 /* About Me Section */
 
 .midSection {
   background-color: #596F62;
-  padding: 4rem 1rem 4rem 1rem;
+  padding: 4.5rem 1rem 4rem 1rem;
   position: relative;
-  z-index: 2;
+  bottom: 5rem;
 }
 
 .logoSmall {
@@ -128,7 +142,13 @@ font-family: 'Poppins', sans-serif; */
 .carousel-control-next-icon {
   width: 2.5rem;
   height: 2.5rem;
-  box-shadow: -0.2rem 0.2rem 0.2rem 0.1rem #0000007a;
+  box-shadow: -0.2rem 0.2rem 0.2rem 0.1rem #0000001c;
+}
+
+.carousel-indicators li {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 100%;
 }
 
 
