@@ -9,6 +9,10 @@ body {
   background-color: #edefec;
 }
 
+.scrollable-element {
+  scrollbar-color: #34552b #596f62;
+}
+
 .navbarSection {
   background-color: #edefec;
   position: fixed;
@@ -65,16 +69,57 @@ body {
   display: inline-flex;
 }
 
-.veganQuote {
-  padding: 2rem;
-  display: inline-flex;
-  z-index: 3;
-  bottom: 2rem;
+/* Carousel */
+
+.carousel {
+  margin-bottom: 2rem;
+  z-index: 2;
 }
 
-.vinesImg {
-  min-width: 350px;
+.carousel-control-prev {
+  opacity: 1;
+  transition: none;
+  left: -9%;
+}
+
+.carousel-control-prev-icon {
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000007a;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #d8d8d8;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000001c;
+}
+
+.carousel-control-next {
+  opacity: 1;
+  transition: none;
+  right: -9%;
+}
+
+.carousel-control-next-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: -0.2rem 0.2rem 0.2rem 0.1rem #0000001c;
+}
+
+.carousel-indicators {
+  bottom: -3rem;
+}
+
+.carousel-indicators li {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 100%;
+  background-color: #596f62;
+}
+
+.d-block {
   display: inline-flex;
+  width: 33.33%;
+  float: left;
 }
 
 /* About Me Section */
@@ -83,7 +128,6 @@ body {
   background-color: #596F62;
   padding: 4.5rem 1rem 4rem 1rem;
   position: relative;
-  bottom: 5rem;
 }
 
 .logoSmall {
@@ -112,43 +156,16 @@ body {
   text-align: left;
 }
 
-.carousel {
-  margin-bottom: 2rem;
-  z-index: 2;
+.veganQuote {
+  padding: 2rem;
+  display: inline-flex;
+  z-index: 3;
+  bottom: 2rem;
 }
 
-.carousel-control-prev {
-  left: -4.5rem;
-  opacity: 1;
-  transition: none;
-}
-
-.carousel-control-prev-icon {
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000007a;
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000001c;
-}
-
-.carousel-control-next {
-  right: -4.5rem;
-  opacity: 1;
-  transition: none;
-}
-
-.carousel-control-next-icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  box-shadow: -0.2rem 0.2rem 0.2rem 0.1rem #0000001c;
-}
-
-.carousel-indicators li {
-  width: 0.75rem;
-  height: 0.75rem;
-  border-radius: 100%;
+.vinesImg {
+  min-width: 350px;
+  display: inline-flex;
 }
 
 
@@ -157,7 +174,6 @@ body {
 .bottomSection {
   padding: 4.5rem 1rem 4rem 1rem;
   position: relative;
-  bottom: 5rem;
 }
 
 .email {
