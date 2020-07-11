@@ -3,18 +3,22 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-/* Top Section */
-
-.topSection {
-  background-color: #edefec;
-  padding: 2rem 3rem 0;
-}
-
-.logoLarge {
-  max-width: 13rem;
-}
-
 /* Nav bar */
+
+body {
+  background-color: #edefec;
+}
+
+.scrollable-element {
+  scrollbar-color: #34552b #596f62;
+}
+
+.navbarSection {
+  background-color: #edefec;
+  position: fixed;
+  z-index: 1000;
+}
+
 .navbar {
   z-index: 1;
 }
@@ -38,11 +42,6 @@ font-family: 'Poppins', sans-serif; */
   color: #596f62;
 }
 
-.navItems {
-  position: relative;
-  bottom: 5.75rem;
-}
-
 .nav-link {
   color: #34552b;
 }
@@ -55,21 +54,80 @@ font-family: 'Poppins', sans-serif; */
   border-color: #34552b;
 }
 
-.topBackground {
-  max-width: 740px;
+/* Top Section */
+
+.topSection {
+  padding: 6.5rem 0 0;
   position: relative;
-  right: 3rem;
-  z-index: 1;
 }
 
+.heading-container {
+  display: inline-flex;
+}
+
+.topBackground {
+  display: inline-flex;
+}
+
+/* Carousel */
+
+.carousel {
+  margin-bottom: 2rem;
+  z-index: 2;
+}
+
+.carousel-control-prev {
+  opacity: 1;
+  transition: none;
+  left: -9%;
+}
+
+.carousel-control-prev-icon {
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000007a;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #d8d8d8;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000001c;
+}
+
+.carousel-control-next {
+  opacity: 1;
+  transition: none;
+  right: -9%;
+}
+
+.carousel-control-next-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: -0.2rem 0.2rem 0.2rem 0.1rem #0000001c;
+}
+
+.carousel-indicators {
+  bottom: -3rem;
+}
+
+.carousel-indicators li {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 100%;
+  background-color: #596f62;
+}
+
+.d-block {
+  display: inline-flex;
+  width: 33.33%;
+  float: left;
+}
 
 /* About Me Section */
 
 .midSection {
   background-color: #596F62;
-  padding: 4rem 1rem 4rem 1rem;
+  padding: 4.5rem 1rem 4rem 1rem;
   position: relative;
-  z-index: 2;
 }
 
 .logoSmall {
@@ -98,44 +156,57 @@ font-family: 'Poppins', sans-serif; */
   text-align: left;
 }
 
-.carousel {
-  margin-bottom: 2rem;
-  z-index: 2;
+.veganQuote {
+  padding: 2rem;
+  display: inline-flex;
+  z-index: 3;
+  bottom: 2rem;
 }
 
-.carousel-control-prev {
-  left: -4.5rem;
-  opacity: 1;
-  transition: none;
-}
-
-.carousel-control-prev-icon {
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000007a;
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem #0000001c;
-}
-
-.carousel-control-next {
-  right: -4.5rem;
-  opacity: 1;
-  transition: none;
-}
-
-.carousel-control-next-icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  box-shadow: -0.2rem 0.2rem 0.2rem 0.1rem #0000007a;
+.vinesImg {
+  min-width: 350px;
+  display: inline-flex;
 }
 
 
 /* Contact Section */
 
 .bottomSection {
-  background-color: #F1F1F1;
-  padding: 4rem 8.25% 13.825rem;
+  padding: 4.5rem 1rem 4rem 1rem;
   position: relative;
+}
+
+.email {
+  font-size: 6rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.email .btn-outline-success:hover {
+  color: #113f05;
+  background-color: #8be874;
+  border-color: #8be874;
+}
+
+.social {
+  font-size: 4rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.tW {
+  color: #1DA1F2;
+}
+
+.tW.btn-outline-primary:hover {
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+.veggieDiv {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
