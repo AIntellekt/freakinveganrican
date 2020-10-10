@@ -167,14 +167,15 @@ body {
 }
 
 .profilePic {
-  max-width: 19rem;
-  margin-left: 4%;
+  max-width: 22rem;
+  min-width: 14rem;
+  /* margin-left: 4%; */
   z-index: 2;
 }
 
 .media-body {
   background-color: #34552C;
-  height: 22rem;
+  height: 21.5rem;
   padding: 2.25rem 1rem 0.5rem 10rem;
   margin-top: 2.75rem;
   margin-left: -10rem;
@@ -185,6 +186,10 @@ body {
 
 .aboutDiv {
   text-align: left;
+}
+
+.aboutText {
+  padding-right: 1.75rem;
 }
 
 .veganQuote {
