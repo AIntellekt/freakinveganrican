@@ -1,2 +1,2 @@
-# vegan-rican
-Vegan-Rican-Site
+# freakin vegan rican
+Freakin-Vegan-Rican-Site
